@@ -1,5 +1,3 @@
-package my.appp.my;
-
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -16,9 +14,9 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        ProgressBar pB = findViewById(R.id.progressBar2);
+        ProgressBar pB = findViewById(R.id.progressBar);
         TextView pT = findViewById(R.id.textView);
-        Button btn = findViewById(R.id.btnSubmit);
+        Button btn = findViewById(R.id.btn);
 
         btn.setOnClickListener(v -> {
             startProgress(pB, pT);
@@ -36,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                         System.out.println(e.getMessage());
                     }
 
-                    final int progress = i;
+                    int progress = i;
 
                     runOnUiThread(() -> {
 
