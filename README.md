@@ -1,4 +1,4 @@
-# OOPs with Mobile Application Development for MCA (RVCE)
+# Mobile Application Development for MCA (RVCE)
 
 1. Write an application to display a Progress Bar and show a message using Alert Dialog.
 
