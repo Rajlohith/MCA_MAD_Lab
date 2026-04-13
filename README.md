@@ -1,4 +1,4 @@
-# Mobile Application Development for MCA (RVCE)
+# Mobile Application Development for MCA (RVCE) & Practice Programs
 
 1. Write an application to display a Progress Bar and show a message using Alert Dialog.
 
@@ -19,3 +19,5 @@
 9. Demonstrate the use of Gesture Detector widget to respond to **double-tap** and **swipe** events using Flutter.
 
 10. Build a simple counter app with increment and decrement buttons to show subsequent values on screen using Flutter.
+
+11. Additional Practice Programs
