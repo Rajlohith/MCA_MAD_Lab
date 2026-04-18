@@ -1,0 +1,13 @@
+{
+    "name": "Simple PWA App",
+    "short_name": "PWA",
+    "start_url": "index.html",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/pwaicon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
